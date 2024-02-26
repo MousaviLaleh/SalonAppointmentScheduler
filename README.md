@@ -59,6 +59,7 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 - You should have at least three rows in your services table for the different services you offer, one with a service_id of 1
 
   INSERT INTO services(name) VALUES('cut'), ('color'), ('perm'), ('style'), ('trim'), ('spa');
+<br/>
 
 **2. Split your terminal into a Bash terminal:** <br/>
 - You should create a script file named salon.sh in the project folder
