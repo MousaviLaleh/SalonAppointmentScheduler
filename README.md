@@ -76,6 +76,9 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 - You should display a numbered list of the services you offer before the first prompt for input, each with the format #) <service>. 
   For example, 1) cut, where 1 is the service_id
 
+<br/>
+
+**More..**
 
 - If you pick a service that doesn't exist, you should be shown the same list of services again
 
