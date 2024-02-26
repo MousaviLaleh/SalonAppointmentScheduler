@@ -198,6 +198,7 @@ INSERT INTO public.services VALUES (2, 'color');
 INSERT INTO public.services VALUES (3, 'perm');
 INSERT INTO public.services VALUES (4, 'style');
 INSERT INTO public.services VALUES (5, 'trim');
+INSERT INTO public.services VALUES (6, 'spa');
 
 
 --
