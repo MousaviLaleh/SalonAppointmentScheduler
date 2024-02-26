@@ -62,17 +62,14 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 <br/>
 
 **2. Split your terminal into a Bash terminal:** <br/>
-- You should create a script file named salon.sh in the project folder
-
+- You should create a script file named salon.sh in the project folder <br/>
   touch salon.sh
+  
+
+- Your script file should have a “shebang” that uses bash when the file is executed (use #! /bin/bash) <br/>
+
+- Your script file should have executable permissions <br/>
   chmod +x salon.sh
-
-
-- Your script file should have a “shebang” that uses bash when the file is executed (use #! /bin/bash)
-
-
-- Your script file should have executable permissions
-
   
 - You should not use the clear command in your script
 
