@@ -32,22 +32,25 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database.
 
 - Your appointments table should have a customer_id foreign key that references the customer_id column from the customers table
   
-   ALTER TABLE appointments ADD COLUMN customer_id INT NOT NULL;
-  
+   ALTER TABLE appointments ADD COLUMN customer_id INT NOT NULL; <br/>
    ALTER TABLE appointments ADD FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+
 
 - Your appointments table should have a service_id foreign key that references the service_id column from the services table
 
   ALTER TABLE appointments ADD COLUMN service_id INT NOT NULL  REFERENCES services(service_id);
 
+
 - Your customers table should have phone that is a VARCHAR and must be unique
 
   ALTER TABLE customers ADD COLUMN phone VARCHAR(15) UNIQUE;
+
 
 - Your customers and services tables should have a name column
 
   ALTER TABLE customers ADD COLUMN name VARCHAR(40);
   ALTER TABLE services ADD COLUMN name VARCHAR(40);
+
 
 - Your appointments table should have a time column that is a VARCHAR
 
