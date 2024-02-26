@@ -1,4 +1,4 @@
-# SalonAppointmentScheduler ![](bookApp.png)
+# Salon Appointment Scheduler
 
 ## Project Goal
 Build a Salon Appointment Scheduler using Bash nd PostgreSQL database.
