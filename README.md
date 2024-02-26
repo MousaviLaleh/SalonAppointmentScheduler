@@ -1,7 +1,7 @@
 # Salon Appointment Scheduler
 
 ## Project Goal
-Build a Salon Appointment Scheduler using Bash nd PostgreSQL database.
+Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 :copyright: [freeCodeCamp](https://www.freecodecamp.org/learn/relational-database/) Relational Database Course
 
 
