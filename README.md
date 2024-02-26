@@ -7,7 +7,7 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 
 ## Complete the tasks below
 
-1. Connect to your psql server: <br/> 
+**1. Connect to your psql server:** <br/> 
 - You should create a database named salon
 
   CREATE DATABASE salon;
@@ -60,7 +60,7 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 
   INSERT INTO services(name) VALUES('cut'), ('color'), ('perm'), ('style'), ('trim'), ('spa');
 
-2. Split your terminal into a Bash terminal: <br/>
+**2. Split your terminal into a Bash terminal:** <br/>
 - You should create a script file named salon.sh in the project folder
 
   touch salon.sh
