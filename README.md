@@ -20,7 +20,7 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database.
   CREATE TABLE services();
 
 - Each table should have a primary key column that automatically increments <br/>
-- Each primary key column should follow the naming convention, table_name_id. For example, the customers table should have a customer_id key. 
+- Each primary key column should follow the naming convention, table_name_id. For example, the customers table should have a customer_id key. <br/>
   Note that there’s no s at the end of customer
   <br/>
   ALTER TABLE customers ADD COLUMN customer_id SERIAL PRIMARY KEY;
