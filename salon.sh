@@ -1,8 +1,7 @@
 
 #! /bin/bash
 
-# PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
-PSQL="psql -X -h localhost -p 54321 -U postgres --dbname=salon --tuples-only -c"
+PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 echo -e "\n~~~~~ MY SALON ~~~~~\n"
 echo -e "Welcome to My Salon, how can I help you?\n" 
 
