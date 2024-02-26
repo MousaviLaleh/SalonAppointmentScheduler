@@ -1,3 +1,4 @@
+![](Appointment.png)
 # Salon Appointment Scheduler
 
 ## Project Goal
