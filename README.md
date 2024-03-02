@@ -76,7 +76,7 @@ VALUES ('cut'),
 touch salon.sh
 ~~~~~~~~~~~~~~~~~~~~
 
-- Your script file should have a “shebang” that uses bash when the file is executed (use #! /bin/bash) <br/>
+- Your script file should have a “shebang” that uses bash when the file is executed (use `#! /bin/bash`) <br/>
 - Your script file should have executable permissions
 ~~~~~~~~~~~~~~~~~~~~
 chmod +x salon.sh
