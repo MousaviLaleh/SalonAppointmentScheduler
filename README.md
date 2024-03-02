@@ -87,7 +87,7 @@ chmod +x salon.sh
   For example, 1) cut, where 1 is the service_id
 <br/>
 
-**More..**
+**More ...**
 
 - If you pick a service that doesn't exist, you should be shown the same list of services again
 
