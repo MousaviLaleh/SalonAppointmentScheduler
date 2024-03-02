@@ -10,26 +10,26 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
 
 **1. Connect to your psql server:** <br/> 
 - You should create a database named salon
-
+~~~~~~~~~~~~~~~~~~~~
   CREATE DATABASE salon;
-
+~~~~~~~~~~~~~~~~~~~~
 
 - You should connect to your database, then create tables named customers, appointments , and services
-~
+~~~~~~~~~~~~~~~~~~~~
   \c salon 
   CREATE TABLE customers(); 
   CREATE TABLE appointments(); 
   CREATE TABLE services();
-~
+~~~~~~~~~~~~~~~~~~~~
 
 - Each table should have a primary key column that automatically increments <br/>
 - Each primary key column should follow the naming convention, table_name_id. For example, the customers table should have a customer_id key. <br/>
   Note that there’s no s at the end of customer. <br/>
-  
+  ~~~~~~~~~~~~~~~~~~~~
   ALTER TABLE customers ADD COLUMN customer_id SERIAL PRIMARY KEY; <br/>
   ALTER TABLE appointments ADD COLUMN appointment_id SERIAL PRIMARY KEY; <br/>
   ALTER TABLE services ADD COLUMN service_id SERIAL PRIMARY KEY; <br/>
-
+~~~~~~~~~~~~~~~~~~~~
 
 - Your appointments table should have a customer_id foreign key that references the customer_id column from the customers table
   
