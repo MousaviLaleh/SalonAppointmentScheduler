@@ -14,7 +14,7 @@ Build a Salon Appointment Scheduler using Bash nd PostgreSQL database. <br/>
   CREATE DATABASE salon;
 ~~~~~~~~~~~~~~~~~~~~
 
-- You should connect to your database, then create tables named customers, appointments , and services
+- You should connect to your database, then create tables named `customers`, `appointments` , and `services
 ~~~~~~~~~~~~~~~~~~~~
   \c salon 
   CREATE TABLE customers(); 
