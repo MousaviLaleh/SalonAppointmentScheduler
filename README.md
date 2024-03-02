@@ -99,8 +99,8 @@ chmod +x salon.sh
 - You can create a row in the appointments table by running your script and entering `1, 555-555-5555, Fabio, 10:30 ` at each request for input if that phone number isn’t in the customers table. 
   The row should have the customer_id for that customer, and the service_id for the service entered
 
-- You can create another row in the appointments table by running your script and entering 2, 555-555-5555, 11am at each request for input if that phone number is already in the customers table. 
-  The row should have the customer_id for that customer, and the service_id for the service entered
+- You can create another row in the appointments table by running your script and entering `2, 555-555-5555, 11am` at each request for input if that phone number is already in the customers table. 
+  The row should have the `customer_id` for that customer, and the `service_id` for the service entered
 
 - After an appointment is successfully added, you should output the message `'I have put you down for a <service> at <time>, <name>'`. 
   For example, if the user chooses cut as the service, 10:30 is entered for the time, and their name is Fabio in the database the output would be 
