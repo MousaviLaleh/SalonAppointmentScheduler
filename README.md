@@ -97,7 +97,7 @@ chmod +x salon.sh
 - If a phone number entered doesn’t exist, you should get the customers name and enter it, and the phone number, into the customers table
 
 - You can create a row in the appointments table by running your script and entering `1, 555-555-5555, Fabio, 10:30 ` at each request for input if that phone number isn’t in the customers table. 
-  The row should have the customer_id for that customer, and the service_id for the service entered
+  The row should have the customer_id for that customer, and the `service_id` for the service entered
 
 - You can create another row in the appointments table by running your script and entering `2, 555-555-5555, 11am` at each request for input if that phone number is already in the customers table. 
   The row should have the `customer_id` for that customer, and the `service_id` for the service entered
