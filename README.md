@@ -60,7 +60,13 @@ ALTER TABLE appointments ADD COLUMN time VARCHAR(10);
 
 - You should have at least three rows in your services table for the different services you offer, one with a service_id of 1
 ~~~~~~~~~~~~~~~~~~~~
-INSERT INTO services(name) VALUES('cut'), ('color'), ('perm'), ('style'), ('trim'), ('spa');
+INSERT INTO services(name) 
+VALUES('cut'), 
+      ('color'),
+      ('perm'),
+      ('style'),
+      ('trim'),
+      ('spa');
 ~~~~~~~~~~~~~~~~~~~~
 
 
